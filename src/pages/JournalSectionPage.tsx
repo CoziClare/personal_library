@@ -1,7 +1,8 @@
 import { Navigate, useParams } from 'react-router-dom'
 import { PageHero } from '../components/PageHero'
+import { MistReveal } from '../components/MistReveal'
 import { PlaceholderPanel } from '../components/PlaceholderPanel'
-import { findSection, journalSections } from '../data/site'
+import { findSection, journalSections, thoughtEntries } from '../data/site'
 
 export function JournalSectionPage() {
   const { section } = useParams()
@@ -10,7 +11,9 @@ export function JournalSectionPage() {
   if (!current) {
     return <Navigate to="/journal" replace />
   }
+const isThoughts = current.slug === 'thoughts'
 
+  
   return (
     <>
       <PageHero
@@ -25,10 +28,24 @@ export function JournalSectionPage() {
       />
       <section className="page-panel">
         <div className="container">
-          <PlaceholderPanel
-            title="Blank page under moonlight"
-            text="Entries will arrive as handwritten notes—dates, titles, and quiet lines."
-          />
+          {isThoughts ? (
+            <div className="note-list">
+              {thoughtEntries.map((entry, index) => (
+                <MistReveal key={`${entry.date}-${entry.title}`} delayMs={index * 120}>
+                  <article className="note-card">
+                    <p className="note-card__en">{entry.date}</p>
+                    <h2 className="note-card__title">{entry.title}</h2>
+                    <p className="note-card__body">{entry.body}</p>
+                  </article>
+                </MistReveal>
+              ))}
+            </div>
+          ) : (
+            <PlaceholderPanel
+              title="Blank page under moonlight"
+              text="Entries will arrive as handwritten notes—dates, titles, and quiet lines."
+            />
+          )}
         </div>
       </section>
     </>
