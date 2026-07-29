@@ -120,6 +120,14 @@ export const journalNotes = [
   },
 ] as const
 
+export const thoughtEntries = [
+  {
+    date: '2026-07-29',
+    title: '今日想法',
+    body: '无论是 AI agent、business analytics，这些所谓的热门学科都是我按照剧本出演而学习的。它们很好用、很常用，但是有时就像一阵风，飘忽不定。',
+  },
+] as const
+
 export const aboutLines = [
   '山中无甲子，',
   '寒尽不知年。',
