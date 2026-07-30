@@ -12,13 +12,19 @@ export function AboutPage() {
         lead="A quiet self-portrait beside the pavilion."
         crumbs={[{ label: 'Home', to: '/' }, { label: 'About' }]}
       />
+
       <section className="page-panel">
         <div className="container">
           <MistReveal>
             <div className="about-grid">
-              <p className="about-poem">{aboutLines.join('\n')}</p>
+              <div className="about-poem">
+                {aboutLines.map((line, index) => (
+                  <div key={index}>{line || '\u00A0'}</div>
+                ))}
+              </div>
+
               <div className="about-portrait">
-                <img src={portrait} alt="Portrait" />
+                <img src={portrait} alt="Portrait of the author" />
               </div>
             </div>
           </MistReveal>
