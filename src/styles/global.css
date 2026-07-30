@@ -915,14 +915,13 @@ ul {
 }
 
 .about-portrait {
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 6 / 5;
   background:
     linear-gradient(180deg, rgba(218, 213, 204, 0.35), rgba(109, 148, 200, 0.18)),
     radial-gradient(circle at 50% 35%, rgba(251, 250, 247, 0.5), transparent 55%);
-  filter: none;
   border: 1px solid rgba(218, 213, 204, 0.9);
   display: grid;
-  place-items: end start;
+  place-items: center;
   padding: 1.25rem;
 }
 
