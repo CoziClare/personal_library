@@ -150,16 +150,17 @@ Let's leave the world a little better than we found it.
 ] as const
 
 export const aboutLines = [
-  '山中无甲子，',
-  '寒尽不知年。',
+  '一灯一卷，',
+  '一舟一梦。',
   '',
-  'I collect books,',
-  'write,',
-  'study the mind,',
-  'and sometimes wander far.',
+  'I read,',
+  'I write,',
+  'I listen inward,',
+  'I wander.',
   '',
   '愿此处，',
-  '能让陌生人与一本书相遇。',
+  '与一本书，',
+  '相遇一人。',
 ]
 
 export const contactLinks = [
