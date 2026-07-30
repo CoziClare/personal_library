@@ -3,6 +3,7 @@
 </div>import { MistReveal } from '../components/MistReveal'
 import { PageHero } from '../components/PageHero'
 import { aboutLines } from '../data/site'
+import portrait from '../assets/portrait.jpg'
 
 export function AboutPage() {
   return (
