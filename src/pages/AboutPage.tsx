@@ -19,7 +19,7 @@ export function AboutPage() {
             <div className="about-grid">
               <p className="about-poem">{aboutLines.join('\n')}</p>
               <div className="about-portrait">
-                <img src={portrait} alt="IMG_9837" />
+                <img src={portrait} alt="Portrait" />
               </div>
             </div>
           </MistReveal>
