@@ -1,6 +1,4 @@
-<div className="about-portrait">
-  <img src={portrait} alt="Portrait" />
-</div>import { MistReveal } from '../components/MistReveal'
+import { MistReveal } from '../components/MistReveal'
 import { PageHero } from '../components/PageHero'
 import { aboutLines } from '../data/site'
 import portrait from '../assets/portrait.jpg'
