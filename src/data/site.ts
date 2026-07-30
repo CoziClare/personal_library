@@ -149,19 +149,8 @@ Let's leave the world a little better than we found it.
   },
 ] as const
 
-export const aboutLines = [
-  '一灯一卷，',
-  '一舟一梦。',
-  '',
-  'I read,',
-  'I write,',
-  'I listen inward,',
-  'I wander.',
-  '',
-  '愿此处，',
-  '与一本书，',
-  '相遇一人。',
-]
+export const aboutLines = [ 
+  '山中无甲子，', '寒尽不知年。', '', 'I collect books,', 'write,', 'study the mind,', 'and sometimes wander far.', '', '愿此处，', '能让陌生人与一本书相遇。', ]
 
 export const contactLinks = [
   { label: 'Email', href: 'mailto:cielcc68@outlook.com', note: '飞鸟可传书' },
