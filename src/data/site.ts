@@ -150,7 +150,7 @@ Let's leave the world a little better than we found it.
 ] as const
 
 export const aboutLines = [ 
-  '山中无甲子，', '寒尽不知年。', '', 'I collect books,', 'write,', 'study the mind,', 'and sometimes wander far.', '', '愿此处，', '能让陌生人与一本书相遇。', ]
+  '山中无甲子，', '寒尽不知年。', '', 'I collect books,', 'write,', 'study the mind,', 'and sometimes wander far.', '', '愿此处，', '能让陌生人与一本书相遇。', ] as const
 
 export const contactLinks = [
   { label: 'Email', href: 'mailto:cielcc68@outlook.com', note: '飞鸟可传书' },
