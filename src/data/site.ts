@@ -126,6 +126,27 @@ export const thoughtEntries = [
     title: '今日想法',
     body: '无论是 AI agent、business analytics，这些所谓的热门学科都是我按照剧本出演而学习的。它们很好用、很常用，但是有时就像一阵风，飘忽不定。',
   },
+  {
+    date: '2026-07-30',
+    title: 'Less Reacting, More Creating',
+    body: `I've learned that noticing a problem is only the beginning.
+
+Complaining may reveal what's wrong, but action is what creates change.
+
+Emotions deserve to be expressed—but they can also become growth, creativity, and compassion.
+
+过去的 Xylo，只属于那个阶段的创作 persona，是受到当时创作经历启发而诞生的。
+
+Today, I'm choosing to create with more intention, more authenticity, and more kindness.
+
+Less reacting. More creating.
+
+Less blame. More responsibility.
+
+Let's leave the world a little better than we found it.
+
+— Hana 🤍`,
+  },
 ] as const
 
 export const aboutLines = [
