@@ -1,4 +1,6 @@
-import { MistReveal } from '../components/MistReveal'
+<div className="about-portrait">
+  <img src={portrait} alt="Portrait" />
+</div>import { MistReveal } from '../components/MistReveal'
 import { PageHero } from '../components/PageHero'
 import { aboutLines } from '../data/site'
 
@@ -16,8 +18,8 @@ export function AboutPage() {
           <MistReveal>
             <div className="about-grid">
               <p className="about-poem">{aboutLines.join('\n')}</p>
-              <div className="about-portrait" aria-label="Portrait placeholder">
-                <span>Portrait · soon</span>
+              <div className="about-portrait">
+                <img src={portrait} alt="IMG_9837" />
               </div>
             </div>
           </MistReveal>
