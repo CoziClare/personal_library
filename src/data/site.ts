@@ -124,7 +124,7 @@ export const thoughtEntries = [
   {
     date: '2026-07-29',
     title: '今日想法',
-    body: '无论是 AI agent、business analytics，这些所谓的热门学科都是我按照剧本出演而学习的。它们很好用、很常用，但是有时就像一阵风，飘忽不定。',
+    body: '无论是 AI agent 还是 business analytics，这些所谓的热门学科都是我按照剧本出演而学习的。它们很好用、很常用，但是有时就像一阵风，飘忽不定。',
   },
   {
     date: '2026-07-30',
@@ -146,6 +146,13 @@ Less blame. More responsibility.
 Let's leave the world a little better than we found it.
 
 — Hana 🤍`,
+  },
+  {
+    date: '2026-07-30',
+    title: ‘今日想法’，
+    body： ‘人类的大脑真的需要净化啊
+      
+      ’，
   },
 ] as const
 
