@@ -150,7 +150,7 @@ Let's leave the world a little better than we found it.
   {
     date: '2026-07-30',
     title: '今日想法',
-    body: '人类的大脑真的需要净化啊。',
+    body: '人类的大脑真的需要进化啊。',
   },
 ] as const
 
