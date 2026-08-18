@@ -727,6 +727,7 @@ ul {
 .note-card__body {
   color: rgba(43, 43, 43, 0.72);
   line-height: 1.9;
+  white-space: pre-line;
 }
 
 /* ——— Scrolls (projects) ——— */
