@@ -2,7 +2,7 @@ import { Navigate, useParams } from 'react-router-dom'
 import { MistReveal } from '../components/MistReveal'
 import { PageHero } from '../components/PageHero'
 import { PlaceholderPanel } from '../components/PlaceholderPanel'
-import { findSection, librarySections, liBaiPoems, psychologyBooks } from '../data/site
+import { findSection, librarySections, liBaiPoems, psychologyBooks } from '../data/site'
 
 export function LibrarySectionPage() {
   const { section } = useParams()
@@ -13,7 +13,7 @@ export function LibrarySectionPage() {
   }
 
   const isPsychology = current.slug === 'psychology'
-   const isChineseCulture = current.slug === 'chinese-culture'
+  const isChineseCulture = current.slug === 'chinese-culture'
 
   return (
     <>
