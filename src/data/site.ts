@@ -41,7 +41,7 @@ export const librarySections = [
     label: 'Chinese Culture',
     poetic: '华夏',
     title: 'Chinese Culture',
-    desc: 'Classics, aesthetics, and living tradition.',
+    desc: 'Li Bai and living tradition—brief bilingual readings.',
     verse: '山河',
   },
   {
@@ -65,6 +65,43 @@ export const psychologyBooks = [
       'A practical guide for modern women navigating career and life. It frames boundaries as tools for self-preservation and authentic connection—across friends, family, partners, and oneself. With strategies, examples, and conversation scripts, it shows how clear limits reduce burnout and make room for healthier intimacy.',
   },
 ] as const
+
+export const liBaiPoems = [
+  {
+    titleZh: '月下独酌',
+    titleEn: 'Drinking Alone under the Moon',
+    linesZh: ['花间一壶酒，独酌无相亲。', '举杯邀明月，对影成三人。'],
+    linesEn: [
+      'Among flowers, a jug of wine—I drink alone, with no companion near.',
+      'I raise my cup to the bright moon; with my shadow, we are three.',
+    ],
+    noteZh: '不是排遣寂寞，而是把孤独坐成一场席。明月与影，皆为嘉宾。',
+    noteEn: 'Not escaping loneliness—hosting it. Moon and shadow become guests at the table.',
+  },
+  {
+    titleZh: '行路难 · 其一',
+    titleEn: 'Hard Roads of Travel · I',
+    linesZh: ['长风破浪会有时，', '直挂云帆济沧海。'],
+    linesEn: [
+      'A time will come to ride the wind and cleave the waves—',
+      'hoist the cloud-sail, and cross the vast blue sea.',
+    ],
+    noteZh: '前路多艰，却仍把希望说成必然。李白的豪迈，是相信风总会来。',
+    noteEn: 'The road is hard, yet hope is spoken as certainty. His spirit trusts that wind will come.',
+  },
+  {
+    titleZh: '静夜思',
+    titleEn: 'Quiet Night Thoughts',
+    linesZh: ['床前明月光，疑是地上霜。', '举头望明月，低头思故乡。'],
+    linesEn: [
+      'Moonlight before my bed—I take it for frost on the ground.',
+      'I lift my eyes to the moon; I lower them, and think of home.',
+    ],
+    noteZh: '字句极简，情却极深。月光一照，乡愁便无处可藏。',
+    noteEn: 'Fewest words, deepest feeling. One shaft of moonlight, and homesickness has nowhere to hide.',
+  },
+] as const
+
 
 export const projectSections = [
   {
