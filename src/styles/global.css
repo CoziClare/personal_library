@@ -898,6 +898,89 @@ ul {
   margin-bottom: 1.5rem;
 }
 
+/* ——— Li Bai poems (museum / white-space) ——— */
+.poem-list {
+  display: grid;
+  gap: 4rem;
+  max-width: 36rem;
+}
+.poem-card {
+  padding-bottom: 0.5rem;
+}
+.poem-card__poet {
+  font-family: var(--font-en);
+  font-style: italic;
+  font-size: 0.95rem;
+  letter-spacing: 0.06em;
+  color: var(--gold);
+  margin-bottom: 0.65rem;
+}
+.poem-card__title-zh {
+  font-family: var(--font-zh);
+  font-size: clamp(1.55rem, 3vw, 2rem);
+  letter-spacing: 0.28em;
+  color: #1f3b35;
+  margin-bottom: 0.35rem;
+}
+.poem-card__title-en {
+  font-family: var(--font-en);
+  font-style: italic;
+  font-size: 1.15rem;
+  color: rgba(43, 43, 43, 0.58);
+  margin-bottom: 1.15rem;
+}
+.poem-card__rule {
+  width: 100%;
+  max-width: 14rem;
+  height: 1px;
+  margin-bottom: 1.35rem;
+  background: linear-gradient(90deg, var(--gold), transparent);
+}
+.poem-card__rule--short {
+  max-width: 5.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+.poem-card__verse {
+  margin-bottom: 1rem;
+}
+.poem-card__verse p {
+  margin: 0;
+  line-height: 2.05;
+}
+.poem-card__verse--zh {
+  font-family: var(--font-zh);
+  font-size: 1.12rem;
+  letter-spacing: 0.16em;
+  color: #1f3b35;
+}
+.poem-card__verse--en {
+  font-family: var(--font-en);
+  font-style: italic;
+  font-size: 1.08rem;
+  color: rgba(43, 43, 43, 0.68);
+}
+.poem-card__label {
+  font-family: var(--font-zh);
+  letter-spacing: 0.2em;
+  font-size: 0.88rem;
+  color: var(--gold);
+  margin-bottom: 0.65rem;
+}
+.poem-card__note-zh {
+  font-family: var(--font-zh);
+  letter-spacing: 0.06em;
+  line-height: 1.95;
+  color: rgba(31, 59, 53, 0.88);
+  margin-bottom: 0.55rem;
+}
+.poem-card__note-en {
+  font-family: var(--font-en);
+  font-style: italic;
+  line-height: 1.85;
+  color: rgba(43, 43, 43, 0.62);
+}
+
 /* ——— About ——— */
 .about-grid {
   display: grid;
